@@ -1,0 +1,41 @@
+.flex-1-img {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1-para {
+    line-height: 2.3em;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-2-img {
+    margin-right: 20px
+}
+
+.flex-2 p{
+    line-height: 2.3rem;
+}
+
+
+
+.para-3 {
+    line-height: 1.9em;
+}
+
+.flex-3 {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .flex-2 {
+        flex-direction: column;
+    }
+
+    .flex-3 {
+        flex-direction: column;
+    }
+}
